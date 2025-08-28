@@ -1,0 +1,18 @@
+<h1> JDBC </h1>
+
+JDBC(Java Database Connectivity)
+
+1. DriverManager & Driver
+2. Connection (연결 객체)
+3. Statement / PreparedStatement (SQL 실행 객체)
+4. ResultSet (조회 결과 집합)
+5. close() (자원 해제)
+
+📌 DAO (Data Access Object)
+DB 접근 로직만 담당하는 클래스.
+예: EmployeeDAO, BookDAO 등.
+insert, select, update, delete 같은 CRUD 메소드 구현.
+
+📌 JDBCTemplate (공통 유틸)
+DB 연결/해제/트랜잭션을 공통 메소드로 만들어둔 클래스.
+모든 DAO에서 반복되는 코드를 줄여줌.
