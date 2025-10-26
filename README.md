@@ -83,3 +83,7 @@ rest는 웹 서비스가 어떻게 동작해야하는지에 대한 아키텍처 
 
 * RESTfullARI 는 원칙을 잘 지키며 설계된 API이다.
   
+GET /users - 사용자 목록 조회
+POST /users - 새로운 사용자 생성
+PUT /users/{id} - 사용자 정보 수정
+DELETE /users/{id} - 사용자 삭제
